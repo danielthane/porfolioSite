@@ -65,17 +65,18 @@ nav {
 }
 
 .btn {
-  background-color: #bafca2;
   border: none;
   box-shadow: #000000 4px 6px 0;
   font-family: "Archivo", sans-serif;
-  font-size: 3rem;
+
   padding: 1rem;
   transition-duration: 0.2s;
   transition-property: translate, box-shadow, background-color;
 }
 
 .projects-btn {
+  background-color: #bafca2;
+  font-size: 3rem;
   margin-top: 2rem;
 }
 
@@ -84,4 +85,16 @@ nav {
   cursor: pointer;
   translate: -2px -2px;
   box-shadow: #000000 8px 10px 0;
+}
+
+/* Projects Section */
+
+.projects {
+  background-color: #daf5f0;
+  height: 100vh;
+}
+
+.projects-heading {
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 96px;
 }
