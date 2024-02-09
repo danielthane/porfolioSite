@@ -56,6 +56,7 @@ nav {
 .hero-heading {
   font-family: "Lexend Mega", sans-serif;
   font-size: 120px;
+  text-align: center;
 }
 
 .hero-copy {
@@ -91,12 +92,13 @@ nav {
 
 .projects {
   background-color: #daf5f0;
-  height: 100vh;
+  padding-bottom: 5rem;
 }
 
-.projects-heading {
+.section-heading {
   font-family: "Lexend Mega", sans-serif;
   font-size: 96px;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -104,8 +106,8 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 80vh;
   gap: 10%;
+  margin-top: 3rem;
 }
 
 .project-card {
@@ -152,4 +154,32 @@ nav {
   cursor: pointer;
   translate: -2px -2px;
   box-shadow: #000000 8px 10px 0;
+}
+
+/* About Me Section */
+.about-me {
+  background-color: #fcdfff;
+  padding-bottom: 5rem;
+}
+
+.page-container {
+  align-items: center;
+  display: flex;
+  max-height: 80vh;
+  gap: 10%;
+  justify-content: center;
+}
+
+.page-container > img {
+  min-width: 360px;
+  width: 20%;
+}
+
+.about-me-copy-container {
+  font-size: 1.6rem;
+  width: 30%;
+}
+
+.about-me-copy-container > p {
+  margin-bottom: 0.6rem;
 }
