@@ -97,4 +97,59 @@ nav {
 .projects-heading {
   font-family: "Lexend Mega", sans-serif;
   font-size: 96px;
+  text-align: center;
+}
+
+.project-card-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  gap: 10%;
+}
+
+.project-card {
+  background-color: #f8d6b3;
+  box-shadow: #000000 8px 12px 0;
+  border-radius: 26px;
+  padding: 2rem;
+}
+
+.project-card:nth-child(2) {
+  background-color: #fcdfff;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+.project-card > ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.img-placeholder {
+  background-color: white;
+  width: 350px;
+  height: 200px;
+}
+
+.tech-list-title {
+  margin-top: 1rem;
+}
+
+.live-btn {
+  background-color: #fdfd96;
+  border-radius: 26px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.live-btn:hover {
+  background-color: #fafab1;
+  cursor: pointer;
+  translate: -2px -2px;
+  box-shadow: #000000 8px 10px 0;
 }
